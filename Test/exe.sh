@@ -7,6 +7,7 @@ source /cvmfs/cms.cern.ch/cmsset_default.sh
 cd /eos/user/g/gayalasa/CondoBase/CMSSW_10_6_12/src/myAnalyzers/BtoKsMuMu
 eval `scramv1 runtime -sh`
 echo $CMSSW_BASE "is the CMSSW we created on the local worker node"
-
+git pull 
+scram b
 cd test
 cmsRun Run_TnP_Condor.py maxE=3000 saveInSync=True "$@"
