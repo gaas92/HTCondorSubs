@@ -1,0 +1,10 @@
+.DS_Store
+*.err
+*.log
+*.out
+*.pyc
+*.vscode/*
+*.idea/workspace.xml
+*.pyc
+*.root
+*__init__.py

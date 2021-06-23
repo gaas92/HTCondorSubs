@@ -1,0 +1,8 @@
+executable              = exe.sh
+arguments               = saveInSync=True inputFile=$(inputFile_)
+output                  = v3CD.$(ClusterId).$(ProcId).out
+error                   = v3CD.$(ClusterId).$(ProcId).err
+log                     = v3CD.$(ClusterId).log
++JobFlavour             = "espresso"
+
+queue inputFile_from runs.txt
