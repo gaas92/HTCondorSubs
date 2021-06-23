@@ -1,3 +1,3 @@
 # HTCondorSubs
 
-Repo to sabe condor jobs submitions 
+Repo for condor jobs submitions 
