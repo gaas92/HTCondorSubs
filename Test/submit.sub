@@ -5,4 +5,4 @@ error                   = v3CD.$(ClusterId).$(ProcId).err
 log                     = v3CD.$(ClusterId).log
 +JobFlavour             = "espresso"
 
-queue inputFile_ from runsTnP.txt 
+queue inputFile_ from runs.txt 
