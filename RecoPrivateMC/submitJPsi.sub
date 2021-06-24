@@ -1,0 +1,8 @@
+executable              = exeJPsi.sh
+arguments               = inputFile=$(inputFile_) onlyGen=$(reco_)
+output                  = outJPsi/JPsi.$(reco_).$(ClusterId).$(ProcId).out
+error                   = errJPsi/JPsi.$(reco_).$(ClusterId).$(ProcId).err
+log                     = logJPsi/JPsi.$(reco_).$(ClusterId).log
++JobFlavour             = "tomorrow"
+
+queue inputFile_,reco_ from runsJPsi.txt

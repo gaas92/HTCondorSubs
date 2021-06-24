@@ -1,0 +1,8 @@
+executable              = exeMuMu.sh
+arguments               = inputFile=$(inputFile_) onlyGen=$(reco_)
+output                  = outMuMu/MuMuReco.$(ClusterId).$(ProcId).out
+error                   = errMuMu/MuMuReco.$(ClusterId).$(ProcId).err
+log                     = logMuMu/MuMuReco.$(ClusterId).log
++JobFlavour             = "tomorrow"
+
+queue inputFile_,reco_ from runsMuMu.txt
