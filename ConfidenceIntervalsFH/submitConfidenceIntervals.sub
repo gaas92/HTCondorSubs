@@ -1,0 +1,9 @@
+executable              = exeConfidenceIntervalsFH.sh
+arguments               = $(bin_) $(step_) $(fh_)
+
+output                  = out/CI.$(bin_)_$(step_).$(ClusterId).$(ProcId).out
+error                   = err/CI.$(bin_)_$(step_).$(ClusterId).$(ProcId).err
+log                     = log/CI.$(bin_)_$(step_).$(ClusterId).log
++JobFlavour             = "longlunch"
+
+queue bin_, step_, fh_ from runsConfidenceIntevals.txt

@@ -1,0 +1,8 @@
+executable              = exeConfidenceIntervalsFH.sh
+arguments               = 4 1 0
+
+output                  = out/CI.test.$(ClusterId).$(ProcId).out
+error                   = err/CI.test.$(ClusterId).$(ProcId).err
+log                     = log/CI.test.$(ClusterId).log
++JobFlavour             = "microcentury"
+
