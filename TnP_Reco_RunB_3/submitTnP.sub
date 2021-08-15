@@ -1,0 +1,8 @@
+executable              = exeTnP.sh
+arguments               = $(inputFile_) $(ProcId)
+output                  = out/v3CD.$(ClusterId).$(ProcId).out
+error                   = err/v3CD.$(ClusterId).$(ProcId).err
+log                     = log/v3CD.$(ClusterId).log
++JobFlavour             = "microcentury"
+
+queue inputFile_ from files_RunB_test.txt
