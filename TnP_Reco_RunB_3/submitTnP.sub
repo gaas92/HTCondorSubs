@@ -5,4 +5,4 @@ error                   = err/v3CD.$(ClusterId).$(ProcId).err
 log                     = log/v3CD.$(ClusterId).log
 +JobFlavour             = "microcentury"
 
-queue inputFile_ from files_RunB_test.txt
+queue inputFile_ from files_RunB.txt
