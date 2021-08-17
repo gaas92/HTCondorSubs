@@ -1,0 +1,8 @@
+executable              = exeReco.sh
+arguments               = $(inputFile_) $(ProcId)
+output                  = out_reco/v3CD.$(ClusterId).$(ProcId).out
+error                   = err_reco/v3CD.$(ClusterId).$(ProcId).err
+log                     = log_reco/v3CD.$(ClusterId).log
++JobFlavour             = "longlunch"
+
+queue inputFile_ from files_RunB.txt
