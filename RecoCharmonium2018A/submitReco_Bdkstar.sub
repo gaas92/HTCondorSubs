@@ -1,4 +1,5 @@
 Proxy_path = /afs/cern.ch/user/g/gayalasa/private/proxy/x509up_u103255
+use_x509userproxy = true
 
 executable              = exeReco_Bdkstar.sh
 arguments               = $(inputFile_) $(ProcId) $(Proxy_path)
