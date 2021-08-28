@@ -12,4 +12,4 @@ eval `scramv1 runtime -sh`
 echo $CMSSW_BASE "is the CMSSW we created on the local worker node"
 cd test
 
-cmsRun Bdkstar_Rootupler_Condor.py inputFile=$1 njob=$2 maxE=100
+cmsRun Bdkstar_Rootupler_Condor.py inputFile=$1 njob=$2 

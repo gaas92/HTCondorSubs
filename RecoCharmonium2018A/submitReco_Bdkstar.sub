@@ -8,4 +8,4 @@ error                   = err_reco/v3CD.$(ClusterId).$(ProcId).err
 log                     = log_reco/v3CD.$(ClusterId).log
 +JobFlavour             = "tomorrow"
 
-queue inputFile_ from charmonuimA_test.txt
+queue inputFile_ from charmonuimA.txt
