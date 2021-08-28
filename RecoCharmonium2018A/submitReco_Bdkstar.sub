@@ -1,6 +1,6 @@
 Proxy_path = /afs/cern.ch/user/g/gayalasa/private/proxy/x509up_u103255
 use_x509userproxy = true
-
+x509userproxy = /afs/cern.ch/user/g/gayalasa/private/proxy/x509up_u103255
 executable              = exeReco_Bdkstar.sh
 arguments               = $(inputFile_) $(ProcId) $(Proxy_path)
 output                  = out_reco/v3CD.$(ClusterId).$(ProcId).out
