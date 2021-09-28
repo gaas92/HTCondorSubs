@@ -7,4 +7,4 @@ output                  = out_reco/v3CD.$(ClusterId).re_$(jobid).out
 error                   = err_reco/v3CD.$(ClusterId).re_$(jobid).err
 log                     = log_reco/v3CD.$(ClusterId).log
 +JobFlavour             = "tomorrow"
-queue inputFile_,jobid from charmonuimA2.txt
+queue inputFile_,jobid from failed3_charmoniumA.txt
