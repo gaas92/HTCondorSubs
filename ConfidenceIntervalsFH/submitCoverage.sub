@@ -1,9 +1,9 @@
 executable              = exeCoverageFH.sh
-arguments               = 3
+arguments               = $(njob_) 
 
 output                  = out_coverage/CI.$(bin_)_$(step_).$(ClusterId).$(ProcId).out
 error                   = err_coverage/CI.$(bin_)_$(step_).$(ClusterId).$(ProcId).err
 log                     = log_coverage/CI.$(bin_)_$(step_).$(ClusterId).log
-+JobFlavour             = "microcentury"
++JobFlavour             = "testmatch"
 
-queue 
+queue njob_ from runsCoverage.txt
